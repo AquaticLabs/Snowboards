@@ -1,0 +1,49 @@
+Animations:
+
+  # Here you can define the name of the animation, in this case;
+  # the name would be "test-animation" and would be referenced with %test-animation%
+  test-animation:
+    # Default Refresh Rate, how often (in ticks, 20 ticks = 1 second) the board will update its values and show
+    refresh-rate: 100
+
+    # The lines of the animation.
+    animation-lines:
+      1:
+        # The text of the animation frame
+        text: "&bT&7est Animatio&bn"
+        # The time in ticks the animation frame will show.
+        delay: 20
+      2:
+        text: "&bTe&7st Animati&bon"
+        delay: 20
+      3:
+        text: "&bTes&7t Animat&bion"
+        delay: 20
+      4:
+        text: "&bTest&7 Anima&btion"
+        delay: 20
+      5:
+        text: "&bTest A&7nim&bation"
+        delay: 20
+      6:
+        text: "&bTest An&7i&bmation"
+        delay: 20
+      7:
+        text: "&bTest Animation"
+        delay: 20
+      8:
+        text: "&bTest An&7i&bmation"
+        delay: 20
+      9:
+        text: "&bTest A&7nim&bation"
+        delay: 20
+      10:
+        text: "&bTest&7 Anima&btion"
+        delay: 20
+      11:
+        text: "&bTes&7t Animat&bion"
+       delay: 20
+      12:
+        text: "&bTe&7st Animati&bon"
+          delay: 20
+

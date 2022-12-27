@@ -1,0 +1,26 @@
+##################################################################
+#                 Snow Scoreboard Config                         #
+#                  Color Codes Supported                         #
+##################################################################
+
+
+MainOptions:
+  # Disable Certain World Stats, You can disable specific worlds from tracking stats.
+  disableCertainWorldStats: true
+  enabledWorlds:
+    - world
+    - pvp
+
+# Edit what the scoreboard looks like in scoreboards.yml
+Scoreboard:
+  enabled: true
+  toggledByDefault: true
+  dateTimeZone: PST
+  dateFormat: "MM/dd/yyyy"
+  defaultScoreboard: default
+
+Messages:
+  noPermission: "&7You do not have the correct permissions for this command."
+  scoreboardDisabled: "&cScoreboards have been disabled in this world."
+  toggleSBMessageOn: "&7Scoreboard has been Toggled &aOn"
+  toggleSBMessageOff: "&7Scoreboard has been Toggled &cOff"

@@ -1,0 +1,14 @@
+name: Snowboard
+version: ${project.version}
+main: me.extremesnow.snowboard.Snowboard
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+commands:
+  snowboard:
+    usage: /<command>
+    description: Main Plugin command.
+    aliases: [sb]
+  togglescoreboard:
+    usage: /<command>
+    description: Toggle scoreboard.
+    aliases: [tsb]

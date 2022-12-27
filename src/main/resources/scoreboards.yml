@@ -1,0 +1,23 @@
+Scoreboards:
+  default:
+    title: "&2Snowboard"
+    layout:
+      - "&7%date%"
+      - "%blank-1%"
+      - "&3User: &7%user%"
+      - "&3Rank: &7%vault_rank%"
+      - "&3Balance: &7%vault_eco_balance%"
+      - "%blank-2%"
+      - "&7&l&m-------------"
+RegionBoards:
+  default_region:
+    title: "&2Snowboard Default Region"
+    layout:
+      - "&7%date%"
+      - "%blank-1%"
+      - "&fKills: &3%kills%"
+      - "&fDeaths: &3%deaths%"
+      - "&fKD: &3%kd%"
+      - "&fStreak: &3%streak%"
+      - "%blank-2%"
+      - "&7&l&m-------------"
